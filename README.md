@@ -1,6 +1,6 @@
 # KAI Voice Assistant
 
-KAI is a Python-based voice assistant for desktop automation and intelligent information retrieval. It enables you to control your Mac with natural voice commands-open apps, search online, fetch news, get weather updates, and much more.
+KAI is a Python-based voice assistant for desktop automation and intelligent information retrieval. It enables you to control your Mac with natural voice commands—open apps, search online, fetch news, get weather updates, and much more.
 
 ---
 
@@ -36,7 +36,9 @@ KAI is a Python-based voice assistant for desktop automation and intelligent inf
 
 Install all dependencies:
 
-'''pip install -r requirements.txt'''
+```
+pip install -r requirements.txt
+```
 
 *(Create a `requirements.txt` file with the above packages for easy installation.)*
 
@@ -45,21 +47,23 @@ Install all dependencies:
 ### Setup
 
 1. **Clone the repository:**
-git clone https://github.com/Sanir2004/KAI-voice-assistant.git
-cd KAI-voice-assistant
+   ```bash
+   git clone https://github.com/Sanir2004/KAI-voice-assistant.git
+   cd KAI-voice-assistant
+   ```
 
 2. **Configure Environment Variables:**
-- Create a `.env` file in the project root:
-  ```
-  USER=SANIR
-  BOT=KAI
-  ```
-- Add your API keys for [OpenWeatherMap](https://openweathermap.org/api), [NewsAPI](https://newsapi.org/), and [WolframAlpha](https://products.wolframalpha.com/api/) in the respective places in the code or `.env` as needed.
+   - Create a `.env` file in the project root:
+     ```
+     USER=SANIR
+     BOT=KAI
+     ```
+   - Add your API keys for [OpenWeatherMap](https://openweathermap.org/api), [NewsAPI](https://newsapi.org/), and [WolframAlpha](https://products.wolframalpha.com/api/) in the respective places in the code or `.env` as needed.
 
 3. **Run the Assistant:**
-
-python main.py
-
+   ```bash
+   python main.py
+   ```
 
 ---
 
