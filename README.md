@@ -35,6 +35,7 @@ KAI is a Python-based voice assistant for desktop automation and intelligent inf
 - [python-decouple](https://pypi.org/project/python-decouple/)
 
 Install all dependencies:
+
 pip install -r requirements.txt
 
 *(Create a `requirements.txt` file with the above packages for easy installation.)*
@@ -50,7 +51,7 @@ cd KAI-voice-assistant
 2. **Configure Environment Variables:**
 - Create a `.env` file in the project root:
   ```
-  USER=YourName
+  USER=SANIR
   BOT=KAI
   ```
 - Add your API keys for [OpenWeatherMap](https://openweathermap.org/api), [NewsAPI](https://newsapi.org/), and [WolframAlpha](https://products.wolframalpha.com/api/) in the respective places in the code or `.env` as needed.
