@@ -36,7 +36,7 @@ KAI is a Python-based voice assistant for desktop automation and intelligent inf
 
 Install all dependencies:
 
-pip install -r requirements.txt
+'''pip install -r requirements.txt'''
 
 *(Create a `requirements.txt` file with the above packages for easy installation.)*
 
