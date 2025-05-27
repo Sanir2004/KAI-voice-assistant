@@ -40,7 +40,6 @@ Install all dependencies:
 pip install -r requirements.txt
 ```
 
-*(Create a `requirements.txt` file with the above packages for easy installation.)*
 
 ---
 
